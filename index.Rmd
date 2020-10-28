@@ -1,0 +1,13 @@
+---
+title: "Ronae McLin's p8105 website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+
+Hi there. My name is Ronaé McLin. I am currently a student at Columbia's Mailman School of Public health in the City of New York. This website contains my academic and professional experience.  Normally I would make things more extensive, but this is for a p8105 homework assignment :)
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
