@@ -8,7 +8,11 @@ navbar:
     - text: "Resume"
       href: resume.html
     - text: "Dashboard"
-      href: dashboard.html
+      href: dashboard.html 
+    - text: "About me"
+      href: about-me.html
+    - text: "Favorites"
+      href: Favorites.html
     - icon: fa-linkedin 
       href: http://www.linkedin.com/in/ronae-mclin-a086901b7/
     - icon: fa-envelope fa-lg

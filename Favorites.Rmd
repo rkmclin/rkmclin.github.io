@@ -1,5 +1,5 @@
 ---
-title: "Ronae McLin's p8105 website"
+title: "Favorites"
 output: 
   html_document:
     toc: true
@@ -7,25 +7,16 @@ output:
     theme: simplex
 ---
 
+One of my favorite past times is checking out the recommendations of those I trust! Books, restaurants, snacks, you name it! So think of this page as my way of doing that for you. You'll find below some things I think are cool
 
-# Hi! 
-Hi there. My name is Ronaé McLin. I am currently a student at Columbia's Mailman School of Public health in the City of New York. This website contains my academic and professional experience.  Normally I would make things more extensive, but this is for a p8105 homework assignment :)
+# Baking
 
-![](https://media.giphy.com/media/zHOzMlel57IEE/giphy.gif)
+During quarantine, like many others, I found myself baking a ton! I became obsessed with Stella Parks' recipes, and rightly so. She has an amazing book that tackles American treats and desserts, but in a way that a home cook can easily manage.  Below you can find a link to her website.
 
-# Function?
-
-This website is to fulfill a p8105 homework assignment, more specifically homework #4 regarding interactivity. On the other pages of this website you find my resume, some of my favorites sources of media, a flexdashboard containing some cool plots, and more!
+[Stella's BraveTart](http://bravetart.com)
 
 
-# Check it out!
-
-[hire me](resume.html)
-
-
-
-[2nd part of my homework assignment](dashboard.html)
-
+<img src="images/cosmic.jpg" style="width:75%">
 
 
 

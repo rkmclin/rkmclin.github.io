@@ -1,5 +1,5 @@
 ---
-title: "Ronae McLin's p8105 website"
+title: "About me"
 output: 
   html_document:
     toc: true
@@ -8,24 +8,51 @@ output:
 ---
 
 
-# Hi! 
-Hi there. My name is Ronaé McLin. I am currently a student at Columbia's Mailman School of Public health in the City of New York. This website contains my academic and professional experience.  Normally I would make things more extensive, but this is for a p8105 homework assignment :)
+# Who am I?
+Still figuring that part out to be quite honest, but hey, I like the direction I'm headed. Below are some fun facts about me! Check them out 
 
-![](https://media.giphy.com/media/zHOzMlel57IEE/giphy.gif)
+# Fact 1 
 
-# Function?
+I am left handed! When I was younger I would switch between left and right, until I settled on the left once and for all. 
 
-This website is to fulfill a p8105 homework assignment, more specifically homework #4 regarding interactivity. On the other pages of this website you find my resume, some of my favorites sources of media, a flexdashboard containing some cool plots, and more!
+# Fact 2
+
+I was born in Chicago, IL. But during my childhood lived in Ohio, Louisiana, and Tennessee.
+
+# Fact 3
+
+I have a West Highland White Terrier named Stormie. He's going to be 15 this year, such an adult!
+
+![](https://media.giphy.com/media/S7EBVldXaoAlUVV83X/giphy.gif)
 
 
-# Check it out!
+# Fact 4
 
-[hire me](resume.html)
+Some of my least favorite foods are mushrooms and beets.
 
+# Fact 5
 
+My favorite fruit are olives. Cherries and pomegranates are up there too.
 
-[2nd part of my homework assignment](dashboard.html)
+# Fact 6
 
+One of my favorites movies of all time is Bring it On. You can find a gif of one of the best scenes on my home screen. 
+
+# Fact 7
+
+I like R even if it doesn't like me back
+
+# Fact 8
+
+If I could live anywhere in the world? Would probably be Japan. Or on some quiet land in Texas with my own personal lake.
+
+# Fact 9
+
+From grade school to college, I took French, Latin, German, and Spanish. I only remember a little bit of each! 
+
+# Fact 10
+
+Instead of attending my college graduation ceremony, I took a solo trip Ghana instead. 
 
 
 

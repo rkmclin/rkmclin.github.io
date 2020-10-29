@@ -28,6 +28,14 @@ This website is to fulfill a p8105 homework assignment, more specifically homewo
 
 
 
+[who is she?](about-me.html)
+
+
+
+[Ronaé's Recs](Favorites.html)
+
+
+
 
 
 
