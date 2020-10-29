@@ -1,0 +1,12 @@
+---
+title: "Dashboard"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: simplex
+---
+
+
+
+Dashboard page!!

@@ -1,0 +1,159 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: simplex
+---
+
+# Intro
+Here's my resume! Under my professional and academic sections, I have included some helpful links :)
+
+## Components {.tabset}
+
+### Education
+
+**Undergraduate**
+
+THE Ohio State University
+Location: Columbus, OH
+Degree: Bachelor of Science- Biology 2016
+Degree: Bachelor of Arts- English 2017
+Honors: Dean’s List; Provost Scholarship 
+
+**Graduate**
+
+Columbia University- Mailman School of Public Health
+Location: New York, NY 2021
+Degree: Master of Public Health in Population and Family Health – Public Health Research Methods
+
+**Some cool classes I have taken at Colubmia**
+- Research Methods & Application- STATA
+- Data Science- R
+- Research Design & Data Collection- Qualtrics
+- Quantitative Data Analysis- SPSS
+- Analysis of Categorical Data-SAS
+- Qualitative Data Analysis- Dedoose
+
+### Public Health Experience
+
+**ICAP Next Generation Internship (HIV/AIDS nonprofit)**
+
+Location: New York, NY	     	                             	When: Summer 2020
+
+**What did I do?**
+
+Central Asia Region intern: Tajikistan, Kazakhstan, Kyrgyzstan   
+•	Assisted with development of Q3 DATIM narratives
+•	Supported with protocol development for COVID-19 PHC facility preparedness assessment
+•	Developed program related presentations and slide sets
+
+
+ **Equitas Health (HIV/AIDS LGBTQ nonprofit)**
+ 
+Where: Columbus, OH 					
+When: 2017-2019
+
+**What did I do?**
+
+Prevention & Safepoint initiative
+•	Greeted all patients, escorted patients to clinicians, assisted with patient registration, scheduling, and check out services
+•	Entered and organized surveillance data from 1000+ participants in a clean syringe exchange program
+•	Discussed harm reduction and cessation options with current intravenous drug users
+
+
+**37 Military Hospital**
+
+Where: Accra, Ghana				
+When: Summer 2017
+
+**What did I do?**
+
+Pediatric intake facility- HIV & tuberculosis special clinic
+•	Assisted with newborn care and completed newborn vitals
+•	Filled out development charts and took measurements for patients aged 0-5 years
+•	Participated in daily clinic debriefings to discuss daily goals and coordinate team efforts
+
+
+### Event Planning and Administrative Experience
+
+**MMOREawareness Organization, Executive Board Member**
+
+Location: The Ohio State University 		
+When: 2014-2017
+
+**What did I do?**
+•	Managed, in collaboration with four other undergraduates, an undergraduate organization designed to raise funds for and awareness of Multiple Myeloma
+•	Organized and hosted fundraisers in support of the Columbus-based MMORE non-profit organization’s annual gala and raised approximately $2,000
+•	Created and delivered presentations on multiple myeloma, the MMORE organization, and related volunteer opportunities 
+o	2 presentations a year to a group of 15 people 
+o	Developed and hosted a virtual Pelotonia bike race in support of MMORE
+
+
+### Supervisor and Custom Service Experience
+
+**McDonald’s, General Manager**
+
+Location: Columbus, OH  						
+When: 2017-2019
+
+**What did I do?**
+
+·	Managed a team of 55 employees, created all schedules & handled all employee issues
+·	Led recruiting, selecting, and retention of 9 assistant managers
+·	Location earned approximately $4,000,000 for past year, increased profits by 10% during this period 
+
+
+**McDonald’s, 1st Assistant Manager**
+
+Location: Columbus, OH		
+When: 2012-2017
+
+**What did I do?**
+
+Managed a team of 15 employees: trained new employees, assigned duties and responsibilities, provided performance feedback, monitored accrued hours and breaks, and distributed paychecks
+
+
+# Career goals?
+
+**Short term**
+
+I'm looking for a part time research position, that will allow me to gain experience working with data. This can be from public health or clinical environments. I hope this will steer me in the right direction of soldifiying my career direction
+
+**Mid term**
+
+Completing an MD, PhD, or MD-PhD that will allow for me to expand the wellbeing of communities that have been historically underrepresented or minoritized. This will position me upstream enough so I can impact perennial change. 
+
+**Long term**
+
+world domination!!
+
+![](https://media.giphy.com/media/h4a5qfGnHaXU4/giphy.gif)
+
+
+
+
+# Click below for some more information!
+
+[Go Bucks!](https://www.osu.edu)
+
+
+[Go Lions](https://www.columbia.edu)
+
+
+[Mailman](https://www.publichealth.columbia.edu)
+
+
+[Amazing opportunity](https://us.fulbrightonline.org/#&panel1-2)
+
+
+[My first job](https://www.mcdonalds.com/us/en-us.html)
+
+
+[Practicum](https://icap.columbia.edu)
+
+
+
+
+

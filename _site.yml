@@ -1,14 +1,20 @@
-name: "Yay internet!"
+name: "p8150 Homework assignment 4"
 output_dir: "."
 navbar:
   title: "Home"
   right:
     - text: "Intro Page"
       href: index.html
+    - text: "Resume"
+      href: resume.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - icon: fa-linkedin 
+      href: http://www.linkedin.com/in/ronae-mclin-a086901b7/
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:rkm2147@cumc.columbia.edu
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/rkmclin/
 output:
   html_document:
-    theme: cerulean
+    theme: simplex
