@@ -1,5 +1,5 @@
 ---
-title: "Favorites"
+title: "Baking Adventures"
 output: 
   html_document:
     toc: true
@@ -9,51 +9,127 @@ output:
 
 One of my favorite past times is checking out the recommendations of those I trust! Books, restaurants, snacks, you name it! So think of this page as my way of doing that for you. You'll find below some things I think are cool
 
-# Baking
+# Stella Parks
 
 During quarantine, like many others, I found myself baking a ton! I became obsessed with Stella Parks' recipes, and rightly so. She has an amazing book that tackles American treats and desserts, but in a way that a home cook can easily manage.  Below you can find a link to her website.
 
 [Stella's BraveTart](http://bravetart.com)
 
 
-**Dark chocolate banana oat muffins**
 
-![](images/61220350579__C380DC7B-ACBB-4374-AFB1-5A89A88B301E 2.JPG)
-
-
-![](images/61317741783__737E26E6-49D2-4064-88D4-8E1BAF88142B.JPG)
-
-
-![](images/IMG_0221 2.HEIC)
-
-![](images/IMG_3082.HEIC)
-
-
-![](images/IMG_3224 2.HEIC)
-
-![](images/IMG_3238 2.HEIC)
-
-
-![](images/IMG_3285.HEIC)
-
-![](images/IMG_3300.HEIC)
-
-![](images/IMG_3359 2.HEIC)
-
-![](images/IMG_3428.HEIC)
+***Lofthouse cookies***
 
 
 
 
 
+![](images/image-1.jpg)
+
+***Cosmic brownies***
+
+
+![](images/image-6.jpg)
+
+
+
+
+***Marshmallows***
+
+
+
+![](images/image-7.jpg)
+
+
+
+***PBJ cookies***
+
+
+
+![](images/image-8.jpg)
+
+
+
+
+***Oreos***
+
+
+
+
+![](images/image-9.jpg)
+
+
+# The Jewish Baker
+
+Love bagels? Ever felt like making your own pita or challah? You're in luck! As long as you have some bread flour and some patience to proof you can do it! Check out the Shannon Sarna's book, that teaches you some traditional baked goods.
+
+[Shannon's Modern Jewish Baker](https://www.amazon.com/dp/B074Q1J1LZ/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
+***Before Challah***
+
+
+![](images/IMG_3299.jpg)
+
+***After Challah***
+
+
+![](images/61317741783__737E26E6-49D2-4064-88D4-8E1BAF88142B-1.JPG)
+
+
+# Bon Appetit
+
+BA's kitchen has received some major, and well deserved heat this summer when it broke that they had not being paying their staff.  Nonetheless, they have some excellent recipes that are worth checking out.
+
+[BA](https://www.bonappetit.com)
+
+
+***Double chocolate cookies***
 
 
 
 
 
+![](images/image-2.jpg)
 
 
 
+# Alison Roman
+
+Alison Roman is another source of great recipes. Her laid back personality eas initially infectious but quickly soured when she found herself into some hot water. Nonetheless her 2 most recent books offer great finds.
+
+[nothing fancy](https://www.alisoneroman.com/nothing-fancy)
+
+
+[dining in](https://www.alisoneroman.com/dining-in)
+
+
+***Key lime pie***
+
+
+
+
+![](images/image-3.jpg)
+
+***Shortbread chocolate chunk***
+
+
+
+
+![](images/image-5.jpg)
+
+
+
+# Serious Eats
+
+Serious eats is the lovechild between Stella Parks and J. Kenji Lopez-Alt. You can find great savory dishes and experimental baking from Stella Parks.
+
+[Serious Eats](https://www.seriouseats.com)
+
+***Levain Style chocolate chip cookies***
+
+
+
+
+![](images/image-4.jpg)
 
 
 

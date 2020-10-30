@@ -32,7 +32,7 @@ This website is to fulfill a p8105 homework assignment, more specifically homewo
 
 
 
-[Ronaé's Recs](Favorites.html)
+[I like to bake](Favorites.html)
 
 
 
