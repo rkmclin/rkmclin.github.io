@@ -10,3 +10,35 @@ output:
 
 
 Dashboard page!!
+
+```{r}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+```
+
+```{r}
+data("ny_noaa")
+```
+
+
+```{r}
+noaa_df =
+  ny_noaa %>% 
+  slice_sample(n = 300000) %>% 
+ separate(date, c("year","month","day")) %>% 
+  mutate(
+    year = as.factor(year),
+    month = as.factor(month),
+    day = as.factor(day),
+    tmax = as.integer(tmax),
+    tmin = as.integer(tmin)
+  ) %>% 
+  mutate(
+    prcp = (prcp * 10),
+    tmax = (tmax * 10),
+    tmin = (tmin * 10)
+  )
+  
+```
+
