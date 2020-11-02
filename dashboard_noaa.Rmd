@@ -1,29 +1,19 @@
 ---
-title: "Dashboard"
+title: "NY NOAA Dashboard"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: simplex
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-
-
-Dashboard page!!
-
-```{r}
+```{r setup, include=FALSE}
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
 library(wesanderson)
-```
 
-```{r}
 data("ny_noaa")
-```
 
-
-```{r}
 noaa_df =
   ny_noaa %>% 
   slice_sample(n = 100000) %>% 
@@ -42,11 +32,13 @@ noaa_df =
     snow = round(snow * .03937),
     snwd = round(snwd * .03937)
   )
-  
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-looking at the general trends of snowfall of at least 2 inches over the years. 
+### Chart A
+
 ```{r}
 noaa_df %>% 
   na.omit() %>% 
@@ -54,6 +46,10 @@ noaa_df %>%
 plot_ly(y = ~snow, color = ~year, type = "box" )
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
 
 ```{r}
 noaa_df %>% 
@@ -61,11 +57,9 @@ noaa_df %>%
   plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5)
 ```
 
+### Chart C
+
 ```{r}
-noaa_df %>% 
-  na.omit() %>% 
-  count(prcp) %>% 
-  plot_ly(y = ~month, x = ~n, type = "bar")
 
 ```
 
