@@ -25,7 +25,7 @@ data("ny_noaa")
 ```{r}
 noaa_df =
   ny_noaa %>% 
-  slice_sample(n = 300000) %>% 
+  slice_sample(n = 100000) %>% 
  separate(date, c("year","month","day")) %>% 
   mutate(
     year = as.factor(year),
@@ -35,10 +35,23 @@ noaa_df =
     tmin = as.integer(tmin)
   ) %>% 
   mutate(
-    prcp = (prcp * 10),
-    tmax = (tmax * 10),
-    tmin = (tmin * 10)
+    prcp = round(prcp * .03937 / 10),
+    tmax = (tmax / 10),
+    tmin = (tmin / 10),
+    snow = round(snow * .03937),
+    snwd = round(snwd * .03937)
   )
   
 ```
+
+
+looking at the general trends of snowfall of at least 2 inches over the years. 
+```{r}
+noaa_df %>% 
+  na.omit() %>% 
+  filter(snow > 2) %>% 
+plot_ly(y = ~snow, color = ~year, type = "box" )
+```
+
+
 
