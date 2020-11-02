@@ -37,8 +37,8 @@ noaa_df =
   ) %>% 
   mutate(
     prcp = round(prcp * .03937 / 10),
-    tmax = (tmax / 10),
-    tmin = (tmin / 10),
+    tmax = ((tmax / 10) * 1.8) + 32 ,
+    tmin = ((tmin / 10) * 1.8) + 32,
     snow = round(snow * .03937),
     snwd = round(snwd * .03937)
   )
@@ -46,26 +46,28 @@ noaa_df =
 ```
 
 
-looking at the general trends of snowfall of at least 2 inches over the years. 
+This graph is looking at the general trends of snowfall of at least 5 and at most 50 inches over the years. 
 ```{r}
 noaa_df %>% 
   na.omit() %>% 
-  filter(snow > 5) %>% 
+  filter(snow > 5 & snow < 50) %>% 
 plot_ly(y = ~snow, color = ~year, type = "box" )
 ```
 
 
+This graph is a comparison of the maximum and minimum temperatures, which can be furthers specified based on the month of the year.
 ```{r}
 noaa_df %>% 
   na.omit() %>% 
-  plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5)
+  plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5, colors = "viridis")
 ```
 
-```{r}
-noaa_df %>% 
-  na.omit() %>% 
-  count(prcp) %>% 
-  plot_ly(y = ~month, x = ~n, type = "bar")
 
+This graph is a look at snow accumulation over the years. This can be further specified based on the station ID.
+```{r}
+noaa_df %>%
+  na.omit() %>% 
+  filter(snwd > 0) %>% 
+   plot_ly(y = ~snwd, x = ~year, type = "bar", color = ~id, colors = "viridis")
 ```
 
