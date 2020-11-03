@@ -1,9 +1,10 @@
 ---
-title: "Untitled"
+title: "Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
     vertical_layout: fill
+    source: embed
 ---
 
 ```{r setup, include=FALSE}
@@ -35,7 +36,7 @@ noaa_df =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Snowfall General Trends in inches
 
 ```{r}
 noaa_df %>% 
@@ -47,7 +48,7 @@ plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis" )
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Maximum Temperatures vs Minimum Temperatures in Fahrenheit
 
 ```{r}
 noaa_df %>% 
@@ -55,7 +56,7 @@ noaa_df %>%
   plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5, colors = "viridis")
 ```
 
-### Chart C
+### Snow Accumulation in inches
 
 ```{r}
 noaa_df %>%

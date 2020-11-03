@@ -1,5 +1,5 @@
 ---
-title: "Baking Adventures"
+title: "Baking Projects"
 output: 
   html_document:
     toc: true
