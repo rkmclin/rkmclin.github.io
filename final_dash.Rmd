@@ -42,7 +42,7 @@ Column {data-width=650}
 noaa_df %>% 
   na.omit() %>% 
   filter(snow > 5 & snow < 50) %>% 
-plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis" )
+plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis") 
 ```
 
 Column {data-width=350}
