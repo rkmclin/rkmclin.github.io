@@ -8,7 +8,7 @@ navbar:
     - text: "Resume"
       href: resume.html
     - text: "Dashboard"
-      href: dashboard.html 
+      href: final_dash.html 
     - text: "About me"
       href: about-me.html
     - text: "Hot Bakes"

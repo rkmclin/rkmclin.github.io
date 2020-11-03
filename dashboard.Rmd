@@ -15,7 +15,7 @@ Dashboard page!!
 library(tidyverse)
 library(plotly)
 library(p8105.datasets)
-library(wesanderson)
+
 ```
 
 ```{r}
@@ -51,7 +51,7 @@ This graph is looking at the general trends of snowfall of at least 5 and at mos
 noaa_df %>% 
   na.omit() %>% 
   filter(snow > 5 & snow < 50) %>% 
-plot_ly(y = ~snow, color = ~year, type = "box" )
+plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis")
 ```
 
 

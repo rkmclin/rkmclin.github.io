@@ -24,7 +24,7 @@ This website is to fulfill a p8105 homework assignment, more specifically homewo
 
 
 
-[2nd part of my homework assignment](dashboard.html)
+[NY NOAA dashboard](final_dash.html)
 
 
 
