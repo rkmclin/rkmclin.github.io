@@ -36,7 +36,7 @@ noaa_df =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Snowfall General Trends in inches
+### Snowfall General Trends in inches, specified by year
 
 ```{r}
 noaa_df %>% 
@@ -48,7 +48,7 @@ plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis")
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Maximum Temperatures vs Minimum Temperatures in Fahrenheit
+### Maximum Temperatures vs Minimum Temperatures in Fahrenheit, specified by month
 
 ```{r}
 noaa_df %>% 
@@ -56,12 +56,18 @@ noaa_df %>%
   plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5, colors = "viridis")
 ```
 
-### Snow Accumulation in inches
+### Snow Accumulation in inches, specified by station
 
 ```{r}
 noaa_df %>%
   na.omit() %>% 
   filter(snwd > 0) %>% 
-   plot_ly(y = ~snwd, x = ~year, type = "bar", color = ~id, colors = "viridis")
+   plot_ly(y = ~snwd, x = ~year, type = "bar", color = ~id, colors = "viridis") %>% 
+  layout(
+    scene = list(
+      yaxis = list(title = "Snow fall in inches"),
+      xaxis = list(title = "Year")
+    )
+  )
 ```
 
