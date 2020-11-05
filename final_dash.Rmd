@@ -42,7 +42,8 @@ Column {data-width=650}
 noaa_df %>% 
   na.omit() %>% 
   filter(snow > 5 & snow < 50) %>% 
-plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis") 
+plot_ly(y = ~snow, color = ~year, type = "box", colors = "viridis") %>% 
+  layout(scene = list(yaxis = list(title = "Snowfall in inches"), xaxis = list(title = "Year")))
 ```
 
 Column {data-width=350}
@@ -53,7 +54,8 @@ Column {data-width=350}
 ```{r}
 noaa_df %>% 
   na.omit() %>% 
-  plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5, colors = "viridis")
+  plot_ly(y = ~tmax, x = ~tmin, type = "scatter", mode = "markers", color = ~month, alpha = 0.5, colors = "viridis") %>% 
+  layout(scene = list(yaxis = list(title = "Maximum temperature in degrees of Fahrenheit"), xaxis = list(title = "Minimum temperature in degrees of Fahrenheit"))) 
 ```
 
 ### Snow Accumulation in inches, specified by station
@@ -63,11 +65,6 @@ noaa_df %>%
   na.omit() %>% 
   filter(snwd > 0) %>% 
    plot_ly(y = ~snwd, x = ~year, type = "bar", color = ~id, colors = "viridis") %>% 
-  layout(
-    scene = list(
-      yaxis = list(title = "Snow fall in inches"),
-      xaxis = list(title = "Year")
-    )
-  )
+  layout(scene = list(yaxis = list(title = "Snow fall in inches"), xaxis = list(title = "Year"))) 
 ```
 
